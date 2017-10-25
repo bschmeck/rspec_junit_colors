@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="rspec" tests="1" skipped="0" failures="1" errors="0" time="0.008582" timestamp="2017-10-25T10:11:07-05:00" hostname="osprey">
+<properties>
+<property name="seed" value="21913"/>
+</properties>
+<testcase classname="spec.failing_spec" name="a failing test shouldn&apos;t have color codes" file="./spec/failing_spec.rb" time="0.008183"><failure message="
+expected: 5
+     got: 3
+
+(compared using ==)
+" type="RSpec::Expectations::ExpectationNotMetError">Failure/Error: \e[0mexpect(\e[1;34m1\e[0m + \e[1;34m2\e[0m).to eq \e[1;34m5\e[0m
+
+  expected: 5
+       got: 3
+
+  (compared using ==)
+./spec/failing_spec.rb:5:in `block (2 levels) in &lt;top (required)&gt;&apos;</failure></testcase>
+</testsuite>
